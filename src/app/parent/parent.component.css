@@ -1,0 +1,24 @@
+.parent-box {
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    height: 30vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(124, 186, 186);
+  }
+  
+  .child-box {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+  }
+  span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  

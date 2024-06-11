@@ -1,0 +1,10 @@
+*{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aquamarine;
+    width: 99vw;
+    height: 97vh;
+    background-image: linear-gradient(to bottom right, rgb(139, 211, 218), yellow);
+}

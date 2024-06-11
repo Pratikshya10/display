@@ -1,0 +1,12 @@
+<div class="parent-box">
+    <div class="child-box" [hidden]="!isVisible">
+      This is the child box .
+    </div>
+    <br><br>
+    <span [hidden]="isVisible">Ohho!! The Child Content Box is gone.</span>
+    <br><br>
+    <button (click)="toggleVisibility()">
+      {{ isVisible ? 'Hide' : 'Show' }} Child Box
+    </button>
+  </div>
+  
